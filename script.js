@@ -42,3 +42,8 @@ function createSnowflake() {
 for (let i = 0; i < 20; i++) { // Adjust the number of snowflakes
   createSnowflake();
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var audioPlayer = document.getElementById('audioPlayer');
+    audioPlayer.controls = false;
+});
